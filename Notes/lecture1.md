@@ -1,4 +1,4 @@
-## Week one notes
+## Lecture 1 notes
 
 Need to maybe pickup some CS classes to understand Objective C
 
