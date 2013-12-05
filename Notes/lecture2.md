@@ -1,5 +1,7 @@
 ## Lecture 2 notes
 
+### Objective-C
+
 Properties should not be used for interfaces to the application. However they might have some side effects. 
 
 For our project we are going to use a mutable array.
@@ -10,12 +12,20 @@ If you are checking for a null array a great place to do that is placing the che
 
 If an array does not have an object at the address then you can not get it. 
 
-@ with strings are used to turn strings into objects
+@ with strings are used to turn strings into objects.
 
 @ with arrays are used to create the array.
 
-If you implement both the setter and getter you have to use the @synthesize
+If you implement both the setter and getter you have to use the @synthesize.
 
-A + method is a class method not an instance
+A + method is a class method not an instance.
 
+Never call alloc with out and init and never init with out wrapping it around and alloc.
 
+init will always return self.
+
+You can call inits with arguments, but we will cover that later.
+
+### Xcode
+
+Slides have more infomration and notes should stop now.
