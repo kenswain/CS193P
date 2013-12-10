@@ -24,3 +24,13 @@ Place error checking in your code to hand errors.
 
 Be consistant with what you #define and what you static const as this will make your code more readable.
 
+It is posible to create an outlet to multipul things in the UI
+
+* Use an array for this
+* Create a outlet collection for multipul objects
+* If you need to decide order you can not use the simple way to collect objects
+
+Primary thing a controler does is syncs model with UI
+
+firstObject and lastObject do not return array out of bounds. They only return the objects or nil
+
